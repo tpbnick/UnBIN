@@ -1,0 +1,13 @@
+.markdown-editor h1,
+.markdown-editor h2,
+.markdown-editor h3,
+.markdown-editor h4,
+.markdown-editor h5,
+.markdown-editor h6 {
+  color: inherit;
+}
+
+.markdown-editor a {
+  color: inherit;
+  text-decoration: underline;
+}

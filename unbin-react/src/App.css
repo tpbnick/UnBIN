@@ -1,0 +1,21 @@
+.react-markdown {
+  @apply prose prose-sm;
+  font-size: larger;
+  color: black;
+}
+
+.mobile-paste-editor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.paste-editor-full-width {
+  width: 100%;
+}
+
+.search-create-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

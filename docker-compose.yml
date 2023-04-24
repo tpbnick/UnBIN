@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  api:
+    build: ./Unbin
+    container_name: unbin-api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./Unbin/unbin.db:/app/unbin.db
+
+  frontend:
+    build: ./unbin-react
+    container_name: unbin-frontend
+    ports:
+      - "80:80"

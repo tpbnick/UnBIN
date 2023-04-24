@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+
+# Node.js dependencies
+node_modules
+
+# Build files
+dist
+build
+
+# IDE files
+.vscode
+.idea
+
+# Test reports
+coverage
+.nyc_output

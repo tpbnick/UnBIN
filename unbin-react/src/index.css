@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "daisyui/dist/full.css";
+
+.list-disc li {
+  margin-bottom: 0.25rem;
+}
+
+[data-theme="light"] {
+  background-color: #dedede;
+}
+
+.pastes-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pastes-list-item {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pastes-list-item-text {
+  padding: 10px;
+  font-size: 18px;
+  color: #1f2937;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.pastes-list-item-date {
+  font-size: 0.9rem;
+  color: #6c757d;
+  flex-shrink: 0;
+}
+
+.paste-editor-container {
+  width: 100%;
+  max-width: 100%;
+}
